@@ -60,12 +60,16 @@ img, object, embed, video {
 	clear: both;
 }
 #LayoutDiv3 {
-	clear: both;
-	float: left;
-	margin-left: auto;
 	width: 25%;
-	display: block;
+	text-align: center;
+	-webkit-transition: all 1s ease-in;
+	-moz-transition: all 1s ease-in;
+	-ms-transition: all 1s ease-in;
+	-o-transition: all 1s ease-in;
+	transition: all 1s ease-in;
+	margin-left: auto;
 	margin-right: auto;
+	clear: both;
 }
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
@@ -94,14 +98,6 @@ img, object, embed, video {
 	margin-left: auto;
 	margin-right: auto;
 	clear: both;
-}
-#LayoutDiv3 {
-	clear: both;
-	float: left;
-	margin-left: auto;
-	width: 25%;
-	display: block;
-	margin-right: auto;
 }
 }
 
@@ -133,14 +129,6 @@ img, object, embed, video {
 	margin-left: auto;
 	margin-right: auto;
 	clear: both;
-}
-#LayoutDiv3 {
-	clear: both;
-	float: left;
-	margin-left: auto;
-	width: 25%;
-	display: block;
-	margin-right: auto;
 }
 }
 #LayoutDiv2:hover {
