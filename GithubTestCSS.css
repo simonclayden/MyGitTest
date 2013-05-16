@@ -48,21 +48,24 @@ img, object, embed, video {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 #LayoutDiv2 {
-	clear: both;
-	float: left;
-	margin-left: 0;
 	width: 25%;
-	display: block;
 	text-align: center;
 	-webkit-transition: all 1s ease-in;
 	-moz-transition: all 1s ease-in;
 	-ms-transition: all 1s ease-in;
 	-o-transition: all 1s ease-in;
 	transition: all 1s ease-in;
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	font-weight: bold;
-	color: #F30;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+#LayoutDiv3 {
+	clear: both;
+	float: left;
+	margin-left: auto;
+	width: 25%;
+	display: block;
+	margin-right: auto;
 }
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
@@ -81,19 +84,24 @@ img, object, embed, video {
 	display: block;
 }
 #LayoutDiv2 {
-	clear: both;
-	float: left;
-	margin-left: 0;
 	width: 25%;
-	display: block;
 	text-align: center;
 	-webkit-transition: all 1s ease-in;
 	-moz-transition: all 1s ease-in;
 	-ms-transition: all 1s ease-in;
 	-o-transition: all 1s ease-in;
 	transition: all 1s ease-in;
-	padding-left: auto;
-	padding-right: auto;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+#LayoutDiv3 {
+	clear: both;
+	float: left;
+	margin-left: auto;
+	width: 25%;
+	display: block;
+	margin-right: auto;
 }
 }
 
@@ -115,19 +123,24 @@ img, object, embed, video {
 	display: block;
 }
 #LayoutDiv2 {
-	clear: both;
-	float: left;
-	margin-left: 0;
 	width: 25%;
-	display: block;
 	text-align: center;
 	-webkit-transition: all 1s ease-in;
 	-moz-transition: all 1s ease-in;
 	-ms-transition: all 1s ease-in;
 	-o-transition: all 1s ease-in;
 	transition: all 1s ease-in;
-	padding-left: auto;
-	padding-right: auto;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+#LayoutDiv3 {
+	clear: both;
+	float: left;
+	margin-left: auto;
+	width: 25%;
+	display: block;
+	margin-right: auto;
 }
 }
 #LayoutDiv2:hover {
